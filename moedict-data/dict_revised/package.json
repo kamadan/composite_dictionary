@@ -1,0 +1,31 @@
+{
+  "requires": true,
+  "lockfileVersion": 1,
+  "dependencies": {
+    "convert-excel-to-json": {
+      "version": "1.6.1",
+      "resolved": "https://registry.npmjs.org/convert-excel-to-json/-/convert-excel-to-json-1.6.1.tgz",
+      "integrity": "sha512-8uK4spcnHTZGSpMnu98a/f0sJ1MOD3xoixMF/c2rh8QpFC+BxDWyJ8LAbwoz4XX277HrlH9/ueqqLJBVMKhuUg==",
+      "requires": {
+        "argparse": "^1.0.2",
+        "magicli": "0.0.8",
+        "node.extend": "^2.0.2",
+        "xlsx": "^0.12.1"
+      }
+    },
+    "excel": {
+      "version": "0.1.7",
+      "resolved": "https://registry.npmjs.org/excel/-/excel-0.1.7.tgz",
+      "integrity": "sha1-AKiOb+1fwG9EpKr2+I9l+FqTwLw=",
+      "requires": {
+        "libxmljs": "~0.18.0",
+        "node-promise": "~0.5.3",
+        "underscore": "~1.3.3",
+        "unzip2": "0.2.5"
+      }
+    }
+  },
+  "devDependencies": {
+    "excel-as-json": "^2.0.2"
+  }
+}
